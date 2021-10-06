@@ -78,7 +78,7 @@ if __name__ == "__main__":
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"the time is {strTime}")
         elif 'open code' in query:
-            codepath = "C:\\Users\chira\Desktop\mintmelon-data\mintmelon_django_project\mainproject"
+            codepath = "C:\\Users\chira\Desktop\mainproject"
             os.startfile(codepath)
         elif 'stop' in query:
             speak("see you soon")
